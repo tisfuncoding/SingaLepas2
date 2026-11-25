@@ -1,0 +1,67 @@
+.StoryPage
+{
+    width: 600px;
+    margin: auto;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+body
+{
+    font-family: arial;
+}
+
+.button {
+  background-color: rgb(72, 130, 11);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+img
+{
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.buttonRed {
+  background-color: rgb(203, 13, 13);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+
+@media (max-width: 600px) 
+{
+  .StoryPage {
+    width: 100%;
+  }
+
+    img
+    {
+        width: 80%;
+    }
+
+}
